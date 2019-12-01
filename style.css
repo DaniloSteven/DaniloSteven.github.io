@@ -1,0 +1,531 @@
+/* CSS files add styling rules to your content */
+
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,700");
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.background{
+  
+  background-image: url("https://cdn.glitch.com/c1378cad-e4bb-423f-bc45-c6c874c406c9%2Fback2.jpg?v=1574652119559");
+  /*background-image: url("https://cdn.glitch.com/e4e63009-5043-4959-a512-853db723106e%2F20121231223357_original.jpg?v=1573509214774");*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: auto;
+  width: 1524px;
+  overflow-x: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 0px;
+  margin-left: -30px;
+ 
+}
+
+
+
+body {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+}
+
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+}
+
+.contenido {
+  width: 1400px;
+  background-color: #003e69;
+  margin: 0 auto;
+  height: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #003e69;
+}
+
+li {
+  float: right;
+}
+
+
+lih {
+  float: right;
+}
+
+
+li a {
+  display: block;
+  font-weight:bold;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #4db5ff;
+}
+
+li a {
+  display: block;
+  width: 210px;
+  background-color: #0055A4;
+}
+
+
+
+lih a {
+  display: block;
+  font-weight:bold;
+  color: white;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+lih a:hover {
+  background-color: #4db5ff;
+}
+
+lih a{
+  display: block;
+  width: 122px;
+  background-image: url("https://cdn.glitch.com/e4e63009-5043-4959-a512-853db723106e%2FHome.png?v=1572365718853");
+  background-size: 45px 45px;
+  background-color: #0055A4;
+  background-repeat: no-repeat;
+  background-position: 20px 3.5px; 
+  text-align: center;
+  padding-left: 50px;
+
+}
+  .menu{
+    
+        
+        border: 2px solid white;
+        float: right;
+        top:0;
+        width: 1398px;
+        
+      }
+.Portafolio {
+  height: auto;
+  margin: 0 auto;
+  padding-bottom:80px;
+}
+
+.ImagenProyecto1 {
+  width: 300px;
+  border: thin;
+  margin: 0px;
+  height: 250px;
+  float: left;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 80px;
+}
+
+
+
+.line{
+  border: 2px solid #4db5ff;
+}
+
+.MainTitle {
+  
+  font-weight:bold;  
+  color: #4db5ff;
+  font-size: 36px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-top: 60px;
+  padding-bottom: 10px;
+  padding-top: 50px;
+  
+}
+
+.active {
+  background-color: #4db5ff;
+  color: white;
+}
+
+
+
+
+.FigureCenter{
+  
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1100px;
+  height: auto;
+}
+
+
+.picDesc{
+  
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+ 
+  
+  
+}
+
+
+.pictureCenter{
+  
+  margin-top: 50px;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1100px;
+  height: auto;
+}
+
+
+
+
+/*footer*/
+
+
+.footer {
+   
+  width: 1400px;
+  background-color: #000000;
+  height: auto;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-weight:normal; 
+  font-style: normal;
+  color: white;
+  font-size: 16px;
+  text-align: left;
+
+  
+}
+
+
+
+.footerText {
+  
+  font-weight:normal; 
+  font-style: normal;
+  color: white;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+
+   
+  }
+
+
+
+
+
+.title3 {
+  width: auto;
+  background-color: transparent;
+  height: auto;
+  text-align: left;
+  margin-top: 50px;
+  marging-bottom: 50px;
+  marging-left: 50px;
+  marging-right: 50px;
+}
+
+
+
+
+.lineM{
+  border: 2px solid #4db5ff;
+  align: center;
+  width: 95%;
+  
+    
+   
+}
+
+ .textTitle2{
+  
+  font-weight:bold; 
+  font-style: normal;
+  color: #4db5ff;
+  font-size: 30px;
+  margin-top: 0px;
+  margin-left: 50px;
+   margin-right: 50px;
+  text-align: center;
+
+   }
+
+
+ .textTitle{
+  
+  font-weight:bold; 
+  font-style: normal;
+  color: #4db5ff;
+  font-size: 30px;
+  margin-top: 0px;
+  margin-left: 50px;
+   margin-right: 50px;
+  text-align: center;
+
+   }
+
+.textTitleP{
+  
+  font-weight:bold; 
+  font-style: normal;
+  color: #4db5ff;
+  font-size: 25px;
+  margin-top: 0px;
+  margin-left: 50px;
+   margin-right: 50px;
+  text-align: left;
+
+   }
+
+
+ .bodyText {
+  
+  font-weight:normal; 
+  font-style: normal;
+  color: white;
+  font-size: 16px;
+  margin-top: 0px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 8px;
+  text-align: left;
+
+   
+  }
+
+.bodyTextImage {
+  
+  font-weight:normal; 
+  font-style: normal;
+  color: white;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: left;
+
+
+   
+  }
+
+
+.bodyTextbullet {
+  
+  font-weight:normal; 
+  font-style: normal;
+  color: white;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-left: 0px;
+  margin-right: 50px;
+  text-align: left;
+
+
+   
+  }
+
+
+.bullet {
+  
+
+  color: white;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-left: 0px;
+  margin-right: 50px;
+  text-align: right;
+
+
+   
+  }
+
+
+ .lineD{
+  border: 2px solid #3680b5;
+  align: center;
+  width: auto;
+  margin-right:40px;
+  margin-left:40px;
+
+  }
+
+
+
+/* link style text*/
+
+
+    a.text:link {
+      color: #FF475A;
+      text-decoration: none;
+    }
+
+    a.text:visited {
+      color: #FF475A;
+      text-decoration: none;
+    
+    }
+
+    a.text:hover {
+      color: #FF475A;
+      text-decoration: underline;
+      
+    }
+
+    a.text:active {
+      color: #AA0000;
+      text-decoration: none;
+}
+
+/*footer Social buttons from: https://codepen.io/davidpottrell/pen/MYabyp/*/
+
+
+
+
+
+.btn {
+  clear:both;
+  white-space:nowrap;
+  font-size:.8em;
+  display:inline-block;
+  border-radius:5px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.35);
+  margin:2px;
+  -webkit-transition:all .5s;
+  -moz-transition:all .5s;
+  transition:all .5s;
+  overflow:hidden;
+}
+
+.btn:hover {
+  box-shadow: 0 3px 3px 0 #ffffff;
+}
+
+.btn:focus {
+  box-shadow: 0 3px 3px 0 #ffffff;
+}
+
+.btn > span,.btn-icon > i {
+  float:left;
+  padding:13px;
+  -webkit-transition:all .5s;
+  -moz-transition:all .5s;
+  transition:all .5s;
+  line-height:1em;
+}
+
+.btn > span {
+  padding:14px 18px 16px;
+  white-space:nowrap;
+  color:#FFFFFF;
+  background:#b8b8b8;
+}
+
+.btn:focus > span {
+  background:#9a9a9a;
+}
+
+
+/*grey part*/
+
+.btn-icon > i {
+  border-radius:5px 0 0 5px;
+  position:relative;
+  height:20px;
+  width:13px;
+  text-align:center;
+  font-size:1.25em;
+  color:#fff000;
+  background:#212121
+}
+
+/*small triangle*/
+
+
+.btn-icon > i:after {
+  content:"";
+  border:8px solid;
+  border-color:transparent transparent transparent #222;
+  position:absolute;
+  top:13px;
+  right:-15px
+}
+
+.btn-icon:hover > i,.btn-icon:focus > i {
+  color:#FFF000;
+}
+
+.btn-icon > span {
+  border-radius:0 5px 5px 0;
+}
+
+/*Facebook*/
+.btn-facebook:hover > i,.btn-facebook:focus > i {
+  color:#3b5998;
+}
+
+.btn-facebook > span {
+  background:#3b5998;
+}
+
+/*Twitter*/
+.btn-twitter:hover > i,.btn-twitter:focus > i {
+  color:#55acee;
+}
+
+.btn-twitter > span {
+  background:#55acee;
+}
+
+/*Youtube*/
+.btn-youtube:hover > i,.btn-youtube:focus > i {
+  color:#dd4b39;
+}
+
+.btn-youtube > span {
+  background:#FF0000;
+}
+
+/*Pinterest*/
+.btn-pinterest:hover > i,.btn-pinterest:focus > i {
+  color:#cb2028;
+}
+
+.btn-pinterest > span {
+  background:#cb2028;
+}
+
