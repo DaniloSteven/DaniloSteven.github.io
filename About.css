@@ -584,7 +584,7 @@ ltable a {
   margin-left:80px;
   margin-right:80px;
   padding-bottom:50px;
-  height: auto;
+  height: 1480px;
   
 
   
@@ -1098,7 +1098,7 @@ ltable a {
 .titleT {
   width: auto;
   background-color: transparent;
-  height: auto;
+  height: 60px;
   text-align: left;
   padding-top: 20px;
   padding-bottom: 10px;
