@@ -1098,7 +1098,7 @@ ltable a {
 .titleT {
   width: auto;
   background-color: transparent;
-  height: auto;
+  height: 60px;
   text-align: left;
   padding-top: 20px;
   padding-bottom: 10px;
